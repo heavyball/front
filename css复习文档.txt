@@ -1,0 +1,94 @@
+选择器+样式
+
+基础选择器：
+	标签选择器
+
+	类选择器
+
+	id选择器：只能调用一次
+	
+	通配符选择器
+复合选择器
+
+
+字体
+font-family   字体样式
+
+font-size       字体大小（谷歌浏览器默认文字大小为16px）
+标题标签需要单独指定文字大小
+
+font-weight  字体粗细
+
+font-style      文字样式
+italic  斜体
+normal   斜体不倾斜
+
+font复合写法
+font：font-style font-weight font-size/line-height font-family 
+
+
+css文本属性
+color
+text-align  对齐文本（水平对齐）
+text-decoration 装饰文本
+none   没有装饰线
+underline  下划线
+overline     上划线
+line-through删除线
+
+text-indent   文本缩进
+
+line-height    行间距
+
+
+css引入方式
+内部样式表
+行内样式表
+外部样式表（常用）
+
+
+Emmet语法
+HTML快速生成
+
+div*3 = 3个div标签
+ul>li = 父子关系
+div+p  =兄弟关系
+div.类名 =  穿件一个类名为类名的div
+.demo$5 = demo
+
+css快速生成
+Emmet语法
+
+基础选择器
+
+复合选择器
+后代选择器、子选择器、并集选择器、伪类选择器
+
+
+元素的显示模式
+块元素
+a.独占一行
+b.  高度，宽度、外边距以及内边距都可以控制
+c.宽度默认是容器（父级宽度）的100%
+d.里面可以放行内和块级元素
+！！！！！！！！！！！！！！！！！！！！！！！！
+文字类的元素里面不能使用块级元素
+！！！！！！！！！！！！！！！！！！！！！！！！
+
+行内元素
+a.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

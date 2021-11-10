@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 筛选数组方法1
+        var arr1 = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+        var arr2 = [];
+        var num = 10;
+        var j = 0;
+        for (var i = 0; i < arr1.length; i++) {
+            if (arr1[i] > num) {
+                arr2[j] = arr1[i];
+                j++;
+            }
+        }
+        console.log(arr2);
+        // 筛选数组方法2
+        var arr1 = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+        var arr2 = [];
+        var num = 10;
+        for (var i = 0; i < arr1.length; i++) {
+            if (arr1[i] > num) {
+                arr2[arr2.length] = arr1[i];
+                j++;
+            }
+        }
+        console.log(arr2);
+        // 数组去除指定元素
+        var arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+        var newArr = [];
+        for (var i = 0; i < arr1.length; i++) {
+            if (arr[i] != 0) {
+                newArr[newArr.length] = arr[i];
+            }
+        }
+        console.log(newArr);
+        // 翻转数组
+        var str = ['red', 'green', 'blue','pink','purple'];
+        var newStr = [];
+        var j = 0;
+        for (var i = str.length - 1; i >= 0; i--) {
+            newStr[j] = str[i]; 
+            j++;
+        }
+        console.log(newStr);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

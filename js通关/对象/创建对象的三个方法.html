@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 利用字面量创建
+        // var obj = {
+        //     name:'可可',
+        //     year:'5岁',
+        //     color:'棕红色',
+        //     type:'阿拉斯加犬',
+
+        //     bark: function() {
+        //         console.log('汪汪汪');
+        //     },
+        //     showFilm: function() {
+        //         console.log('嘿嘿');
+        //     }
+        //     }
+        //     console.log(obj);
+        //     console.log(obj['name']);
+        //     obj.bark();
+        
+        // new 创建
+
+        // var obj = new Object();
+        // obj.name = '鸣人';
+        // obj.sex = '男';
+        // obj.year = '19';
+        // obj.skill = function() {
+        //     console.log('西内');
+        // }
+        // console.log(obj);
+
+        // 使用构造函数创建
+
+        function Hero(name, type, blood) {
+            this.name = name;
+            this.type = type;
+            this.blood = blood;
+            this.attack = function(type) {
+                console.log(type);
+            }
+        }
+        var lianpo = new Hero('廉颇', '力量型', '500血量');
+        var houyi = new Hero('后裔', '射手型', '1000血量');
+        
+        console.log(lianpo);
+        console.log(lyy.name);
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

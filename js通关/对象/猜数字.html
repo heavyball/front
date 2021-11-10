@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num = Math.floor(Math.random() * 10 + 1);
+        console.log(num);
+        while(1) {
+            var guss = prompt('请输入一个1~10之间的数字');
+            if (num == guss) {
+            alert('恭喜你猜对了');
+            break;
+        } else if (num > guss) {
+            alert('猜小了，请重试');
+        } else if (num < guss) {
+            alert('猜大了，请重试');
+        }
+    }
+        
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
