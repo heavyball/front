@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="box">不玩了，爷累了</div>
+    <div class="box">不玩了，爷累了</div>
+    <ul>
+        <li>搞不懂</li>
+        <li id="hh">搞不懂</li>
+        <li>搞不懂</li>
+    </ul>
+    <script> // H5新增的选择器
+       
+        var boxs = document.getElementsByClassName('box');  // 根据类名返回元素对象的集合，以伪数组的形式存储
+        console.log(boxs);
+
+        var lis = document.querySelector('li');   // 根据指定选择器返回第二个元素对象
+        console.log(lis);
+        var hh = document.querySelector('#hh');
+        console.log(hh);
+        var liall = document.querySelectorAll('li');   //根据指定选择器返回所有元素对象
+        console.log(liall);
+
+    </script>
+</body>
+</html>
